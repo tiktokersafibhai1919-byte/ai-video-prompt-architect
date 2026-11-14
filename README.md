@@ -1,28 +1,28 @@
+# 🎬 AI Video Prompt & Hook Architect (v2.0 Pro)
 
-# 🎬 AI Video Prompt & Hook Architect
+A zero-cost, client-side NLP context engine, 32-second retention storyboard generator, and automated `.SRT` subtitle exporter built for short-form (9:16) documentary and educational creators.
 
-A zero-cost, lightweight, rule-based prompt engineering and script-structuring tool built for short-form (9:16) educational and documentary video creators.
+🔗 **Live Web Application:** [Launch AI Video Prompt Architect v2.0](https://tiktokersafibhai1919-byte.github.io/ai-video-prompt-architect/)
 
-🔗 **Live Demo:** [Launch Web App](https://tiktokersafibhai1919-byte.github.io/ai-video-prompt-architect/)
+## 🚀 Overview & Problem Solved
+Producing high-retention vertical videos requires tight narrative pacing, synchronized camera choreography, sound design cues, and frame-accurate subtitles. **AI Video Prompt & Hook Architect v2.0** automates this entire pre-production pipeline 100% locally in the browser—with zero external API costs.
 
-## 🚀 Problem & Solution
-Short-form creators often struggle with maintaining viewer retention in the first 3 seconds and translating narrative ideas into consistent, photorealistic AI visual prompts. **AI Video Prompt & Hook Architect** solves this offline—without requiring paid LLM API keys—by combining structured retention frameworks (Hook → Core Fact → Loop/Twist) with camera and lighting modifiers tailored for 9:16 vertical generation.
-
-## ✨ Key Features
-* **Zero-API Execution:** Runs 100% client-side using vanilla HTML5, CSS3, and JavaScript.
-* **Retention-Engineered Scripting:** Automatically structures scripts into `0–3s Hook`, `3–22s Core Fact`, and `22–30s Loop/Twist`.
-* **Niche-Specific Templates:** Built-in prompt logic for *Underwater Engineering*, *Micro-Science & Macro Biology*, *Luxury Architecture*, and *Ancient Mysteries*.
-* **9:16 Visual Prompt Generator:** Outputs ready-to-paste prompts with lighting, lens, and `--ar 9:16` parameters for Midjourney, Flux, and Runway.
+## ✨ Key Features (v2.0)
+* **Keyword & Physics Context Engine:** Automatically analyzes input topics to detect domain physics (e.g., *Hydro-Structural Dynamics*, *Bio-Mechanical Macro Optics*, *Architectural Geometry*) and injects matching lens specifications.
+* **4-Clip Retention Storyboard (32 Seconds):** Structures voiceover scripts and visual prompts across four 8-second segments (`0–8s Hook`, `8–16s Mechanism`, `16–24s Scale Proof`, `24–32s Loop Twist`).
+* **Camera Motion & SFX Direction:** Pairs every 9:16 AI visual prompt with camera choreography controls and sound design (`SFX`) cues.
+* **One-Click `.SRT` Subtitle Exporter:** Calculates reading-speed timestamps (`2.6 words/sec`) and generates a downloadable `.srt` file ready for CapCut, Premiere Pro, or DaVinci Resolve.
 
 ## 🛠️ Tech Stack
-* **Frontend:** HTML5, CSS3 (Dark Mode UI)
-* **Logic Engine:** Vanilla JavaScript (ES6+)
-* **Hosting:** GitHub Pages
+* **Structure:** Semantic HTML5
+* **Styling:** Custom Responsive CSS3 (Dark Mode UI)
+* **Logic & File Export:** Vanilla JavaScript (ES6+, Blob API for `.srt` generation)
+* **Deployment:** GitHub Pages
 
-## 📂 Project Structure
+## 📂 Repository Structure
 ```text
 ai-video-prompt-architect/
-├── index.html      # Main application interface
-├── style.css       # Responsive dark-theme styling
-├── script.js       # Prompt & script generation engine
-└── README.md       # Project documentation
+├── index.html      # v2.0 UI with camera controls & SRT export trigger
+├── style.css       # Responsive dark-mode layout & SFX badge styling
+├── script.js       # Context analyzer, 4-scene generator & SRT compiler
+└── README.md       # Documentation
