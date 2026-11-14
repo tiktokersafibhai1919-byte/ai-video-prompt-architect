@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #38bdf8;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #94a3b8;
+    font-size: 0.95rem;
+}
+
+.builder-card, .output-card {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #cbd5e1;
+}
+
+select, input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #475569;
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-size: 1rem;
+}
+
+button#generateBtn {
+    width: 100%;
+    padding: 14px;
+    background-color: #0284c7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button#generateBtn:hover {
+    background-color: #0369a1;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    font-size: 1.25rem;
+    color: #38bdf8;
+    margin: 15px 0 10px 0;
+}
+
+.box {
+    background-color: #0f172a;
+    padding: 14px;
+    border-radius: 8px;
+    border-left: 4px solid #38bdf8;
+    margin-bottom: 12px;
+}
+
+.box strong {
+    display: block;
+    color: #94a3b8;
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+}
+
+.copy-btn {
+    margin-top: 8px;
+    padding: 6px 12px;
+    background-color: #334155;
+    color: #f8fafc;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
