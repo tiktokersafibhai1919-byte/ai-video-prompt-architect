@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Video Prompt & Hook Architect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎬 AI Video Prompt & Hook Architect</h1>
+            <p>Generate high-retention 9:16 video scripts & photorealistic AI prompts (Zero-API Engine)</p>
+        </header>
 
+        <main class="builder-card">
+            <div class="form-group">
+                <label for="niche">Select Content Niche:</label>
+                <select id="niche">
+                    <option value="underwater">Underwater Engineering & Mega-Structures</option>
+                    <option value="micro">Micro-Science & Macro Biology</option>
+                    <option value="luxury">Luxury Architecture & Hidden Spaces</option>
+                    <option value="history">Lost Ancient Mysteries & Artifacts</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="topic">Enter Specific Topic / Subject:</label>
+                <input type="text" id="topic" placeholder="e.g., Pouring concrete underwater, Tardigrade survival...">
+            </div>
+
+            <div class="form-group">
+                <label for="lighting">Visual Style & Lighting:</label>
+                <select id="lighting">
+                    <option value="cinematic">Cinematic Moody & Volumetric Rays</option>
+                    <option value="macro">Ultra-Detailed 8K Macro Photography</option>
+                    <option value="documentary">Raw National Geographic Documentary Style</option>
+                    <option value="architectural">Warm Golden Hour & Minimalist Shadows</option>
+                </select>
+            </div>
+
+            <button id="generateBtn" onclick="generateBlueprint()">⚡ Generate Video Blueprint</button>
+        </main>
+
+        <section id="outputSection" class="output-card hidden">
+            <h2>📜 Viral Script Structure (30 Seconds)</h2>
+            <div class="box">
+                <strong>🪝 0-3s Hook:</strong>
+                <p id="hookOutput"></p>
+            </div>
+            <div class="box">
+                <strong>🧠 3-22s Core Fact & Retention:</strong>
+                <p id="bodyOutput"></p>
+            </div>
+            <div class="box">
+                <strong>🔄 22-30s Loop / Twist:</strong>
+                <p id="twistOutput"></p>
+            </div>
+
+            <h2>🎨 9:16 AI Visual Prompts (Midjourney / Runway / Flux)</h2>
+            <div class="box prompt-box">
+                <strong>Scene 1 (Opening Hook Visual):</strong>
+                <p id="prompt1"></p>
+                <button class="copy-btn" onclick="copyText('prompt1')">Copy Prompt</button>
+            </div>
+            <div class="box prompt-box">
+                <strong>Scene 2 (Detail / Mechanism Visual):</strong>
+                <p id="prompt2"></p>
+                <button class="copy-btn" onclick="copyText('prompt2')">Copy Prompt</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
